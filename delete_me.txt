@@ -19732,5 +19732,6 @@ def image_2465():
     response.headers['Content-Type'] = "x-conference/x-cooltalk"
     return response
  
-
+if __name__=="__main__":
+    app.run(debug=True, port=5555)
  
